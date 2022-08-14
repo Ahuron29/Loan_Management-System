@@ -1,0 +1,142 @@
+@media only screen and (max-width: 900px) {
+    .dropdown-content {
+        margin-left: 100px;
+    }
+        footer {
+      padding: 2vmin 18vmin;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    /*table thead{
+        display: none;
+    }
+    table, table thead, table tr, table td{
+        display: block;
+        width: 100%;
+        margin-top: 0px;
+    }
+    table, table tbody, table tr, table th{
+        display: block;
+        width: 100%;
+        margin-top: 0px;
+    }
+    table tbody tr td{
+        align-content: center;
+    }*/
+    .text-center{
+        font-size: 10px;
+    }
+    table thead tr th{
+        font-size: 12px;
+    }
+    table tbody tr td{
+        font-size: 10px;
+    }
+    button.btn.btn-primary{
+        font-size: 10px;
+        padding: 5px;
+    }
+    .dropdown-item {
+        width: 30px;
+    }
+    div .re-size{
+        width: 30px;
+    }
+    header .row .col-md-12 {
+        padding: 5vmin 1vmin;
+        padding-bottom: 5vmin;
+    }
+    header .row .highten {
+        padding: 100vmin 1vmin;
+        padding-bottom: 110vmin;
+    }
+    header {
+      height: 540px;
+    }
+    .dropdown-content {
+        margin-left: 100px;
+    }
+    header .navbar-brand {
+        padding-left: 1rem;
+    }
+    .dropdown-menu.show {
+        background-color: rgb(63, 59, 59);
+    }
+    .dropdown-menu.show a {
+        color: white;
+    }
+    div button .new_user{
+        width: 250px;
+        max-width: 100%;
+        padding: 15px;
+    }
+    footer {
+      padding: 2vmin 18vmin;
+    }
+    footer .pt-4 {
+        font-size: 15px;
+    }
+    footer .row .col-md-2 {
+        margin-top: 8vmin;
+    }
+    .navbar-brand img {
+        margin-left: -10px;
+    }
+}
+
+/* Screen size of 580px */
+@media only screen and (max-width: 580px) {
+    body {
+        border: 10px solid black;
+    }
+    footer .pt-4 {
+        font-size: 10px;
+    }
+}
+
+/* screen size 375px */
+
+@media only screen and (max-width: 375px) {
+    .section-4 .card {
+        width: 18em;
+    }
+    .dropdown-content {
+        margin-left: 100px;
+    }
+    footer .pt-4 {
+        color: #fff!important;
+        font-size: 10px;
+    }
+    
+}
+
+@media only screen and (max-width: 320px) {
+    header .row .highten {
+        padding: 100vmin 1vmin;
+        padding-bottom: 110vmin;
+    }
+    .section-4 .carousel-inner {
+        margin-left: -4vmin;
+    }
+    .dropdown-content {
+        margin-left: 80px;
+    }
+    header .nav-item {
+        padding: 0.3em 0.9em;
+    }
+    footer .pt-4 {
+        color: #fff!important;
+        font-size: 10px;
+    }
+}
+
+
+/* Login Page for small mobile 
+@media only screen and (max-width: 580px) {
+    .mobile_header .row .highten {
+        padding: 60vmin 1vmin;
+        padding-bottom: 70vmin;
+    }
+}
